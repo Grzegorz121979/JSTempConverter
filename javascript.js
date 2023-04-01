@@ -13,5 +13,12 @@ function convertToCelsius() {
     resultCelsiusEl.innerHTML = result.toFixed(2) + "C°"
 }
 
+function clearCelsius() {
+    document.getElementById("celsius-el").value = ""
+    resultFahrenheitEl.innerHTML = ""
+}
 
-    
+function clearFahrenheit() {
+    document.getElementById("fahrenheit-el").value = ""
+    resultCelsiusEl.innerHTML = ""
+}   
