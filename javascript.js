@@ -9,7 +9,7 @@ function convertToFahrenheit() {
 
 function convertToCelsius() {
     let fahrenheit = document.getElementById("fahrenheit-el").value
-    let result = (parseInt(fahrenheit) + 32) * 5 / 9
+    let result = (parseInt(fahrenheit) - 32) * 5 / 9
     resultCelsiusEl.innerHTML = result
 }
 
