@@ -1,9 +1,13 @@
-let resultEl = document.getElementById("result-el")
+let resultEl = document.getElementById("celsius_result-el")
 
-function convert() {
+function convertToFahrenheit() {
     let celsius = document.getElementById("celsius-el").value
     let result = (parseInt(celsius) * 9 / 5) + 32
-    resultEl.innerHTML =  result
+    resultEl.innerHTML =  result   
+}
+
+function convertToCelsius() {
+
 }
 
 
