@@ -7,14 +7,22 @@
 
     <body>
         <h1>Temperature Converter</h1>
-        <label for="celsius">Celsius: </label>
-        <input type="text" id="celsius-el" name="celsius">
-        <label for="fahrenheit">Fahrenheit: </label>
-        <input type="text" id="fahrenheit-el"><br>
-        <button id="conv_to_fahrenheit-btn" onclick="convertToFahrenheit()">Click</button>
-        <button id="conv_to_celsius-btn" onclick="convertToCelsius()">Click</button><br>
-        <label for="fahrenheit">Fahrenheit: </label>
-        <label for="result" id="celsius_result-el"></label>
+        <div id="con">
+            <div class="container">
+                <label for="celsius">Celsius: </label>
+                <input type="text" id="celsius-el"><br>
+                <button id="conv_to_fahrenheit-btn" onclick="convertToFahrenheit()">Click</button><br>
+                <label for="fahrenheit">Fahrenheit: </label>
+                <label for="result" id="celsius_result-el"></label>
+            </div>
+            <div class="container">
+                <label for="fahrenheit">Fahrenheit: </label>
+                <input type="text" id="fahrenheit-el"><br>
+                <button id="conv_to_celsius-btn" onclick="convertToCelsius()">Click</button><br>
+                <label for="celsius">Celsius: </label>
+                <label for="result" id="fahrenheit_result-el"></label>
+            </div>
+        </div>
         
         <script src="javascript.js"></script>
     </body>

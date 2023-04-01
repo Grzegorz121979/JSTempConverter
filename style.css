@@ -1,3 +1,15 @@
 h1 {
     text-align: center;
 }
+
+.container {
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    margin: 50px;
+}
+
+#con {
+    display: flex;
+    justify-content: center;
+}
