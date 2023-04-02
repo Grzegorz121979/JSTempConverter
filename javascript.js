@@ -1,4 +1,4 @@
-let resultFahrenheitEl = document.getElementById("celsius_result-el")
+/*let resultFahrenheitEl = document.getElementById("celsius_result-el")
 let resultCelsiusEl = document.getElementById("fahrenheit_result-el")
 
 function convertToFahrenheit() {
@@ -21,4 +21,12 @@ function clearCelsius() {
 function clearFahrenheit() {
     document.getElementById("fahrenheit-el").value = ""
     resultCelsiusEl.innerHTML = ""
-}   
+}*/
+
+let celsius = document.getElementById("celsius")
+let fahrenheit = document.getElementById("fahrenheit")
+
+function convert() {
+    //let degree = document.getElementById("value").value
+    
+}

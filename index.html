@@ -7,7 +7,14 @@
 
     <body>
         <h1>Temperature Converter</h1>
-        <div id="con">
+        <input type="radio" id="celsius" name="degree" value="Celsius">
+        <label>Celsius</label><br>
+        <input type="radio" id="fahrenheit" name="degree" value="Fahrenheit">
+        <label>Fahrenheit</label><br>
+        <input type="text" id="value"><br>
+        <button id="convert-btn" onclick="convert()">Convert</button><br>
+        <label id="result"></label>
+        <!--<div id="con">
             <div class="container">
                 <label for="celsius">Celsius: </label>
                 <input type="text" id="celsius-el"><br>
@@ -24,7 +31,7 @@
                 <label for="result" id="fahrenheit_result-el"></label><br>
                 <button id="fahrenheit_clear-btn" onclick="clearFahrenheit()">Clear</button>
             </div>
-        </div>
+        </div>-->
         
         <script src="javascript.js"></script>
     </body>
