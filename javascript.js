@@ -23,10 +23,25 @@ function clearFahrenheit() {
     resultCelsiusEl.innerHTML = ""
 }*/
 
-let celsius = document.getElementById("celsius")
-let fahrenheit = document.getElementById("fahrenheit")
+let radio = document.getElementsByName("degree")
+let resultEl = document.getElementById("result")
 
 function convert() {
-    //let degree = document.getElementById("value").value
+    let value = document.getElementById("value").value
+
+    if (radio[0].checked) {
+        let result = (parseFloat(value) * 9 / 5) + 32
+        resultEl.innerHTML = result.toFixed(2) + "F°"
+    } 
     
+    if (radio[1].checked) {
+        let result = (parseFloat(value) - 32) * 5 / 9
+        resultEl.innerHTML = result.toFixed(2) + "C°"
+    }
+}
+
+function clear() {
+    document.getElementById("value").value = ""
+    resultEl.innerHTML = ""
+    console.log("Clear")
 }
