@@ -40,8 +40,7 @@ function convert() {
     }
 }
 
-function clear() {
+function clearResult() {
     document.getElementById("value").value = ""
-    resultEl.innerHTML = ""
-    console.log("Clear")
+    resultEl.innerHTML = "" 
 }
